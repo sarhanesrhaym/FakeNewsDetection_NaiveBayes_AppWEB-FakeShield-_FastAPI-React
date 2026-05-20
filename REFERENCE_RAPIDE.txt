@@ -1,0 +1,179 @@
+# 🚀 IMPRIMABLE - Référence rapide FakeShield AI
+
+## DÉMARRER MAINTENANT
+
+```
+.\start_app.ps1
+```
+
+Puis allez à : http://localhost:5173
+
+---
+
+## 📚 LIRE DANS CET ORDRE
+
+1. `00_LIRE_DABORD.md` ← Vous êtes ici
+2. `README_COMPLET.md` (5 min)
+3. Choisir une tâche (1, 2, 3 ou 4)
+
+---
+
+## 4 TÂCHES
+
+### T1: Gemini (1-2h)
+```
+1. Lire: GEMINI_INTEGRATION.md
+2. Obtenir clé API (Google AI Studio)
+3. pip install google-generativeai
+4. Copier: chatbot_service_GEMINI_TEMPLATE.py
+5. Redémarrer backend
+```
+
+### T2: Modèles (1-2h)
+```
+1. Lire: MODELS_INTEGRATION.md
+2. Créer: backend/app/ml/models/
+3. Placer: naive_bayes_model.pkl
+4. Placer: tfidf_vectorizer.pkl
+5. Copier: classifier_TEMPLATE.py
+6. Redémarrer backend
+```
+
+### T3: Dashboard (2-4h)
+```
+1. npm install recharts lucide-react
+2. Copier: DashboardPage_TEMPLATE.jsx
+3. Copier: DashboardPage.css
+4. Redémarrer frontend
+```
+
+### T4: Tests (2-4h)
+```
+1. Lire: TESTING_GUIDE.md
+2. pip install pytest
+3. Créer: backend/tests/
+4. pytest tests/ -v
+```
+
+---
+
+## 📁 15 FICHIERS CRÉÉS
+
+**Guides** (8)
+- 00_LIRE_DABORD.md ⭐
+- README_COMPLET.md
+- QUICK_START.md
+- DEMARRAGE_RAPIDE.md
+- ANALYSE_ET_PLAN.md
+- INDEX.md
+- CARTE_VISUELLE.md
+- CHECKLIST_FINAL.md
+
+**Templates** (4)
+- chatbot_service_GEMINI_TEMPLATE.py
+- classifier_TEMPLATE.py
+- DashboardPage_TEMPLATE.jsx
+- DashboardPage.css
+
+**Scripts** (2)
+- start_app.ps1
+- start_app.bat
+
+**Référence** (1)
+- FICHIERS_CREES.md
+
+---
+
+## ⏱️ TIMELINE
+
+```
+Gemini     1-2h  ┌─────────────┐
+Modèles    1-2h  │ TOTAL: 6-12h│
+Dashboard  2-4h  │    (par      │
+Tests      2-4h  │   équipe)   │
+           ─────  └─────────────┘
+```
+
+---
+
+## 🔑 COMMANDES ESSENTIELLES
+
+```powershell
+# Démarrage
+.\start_app.ps1
+
+# Backend seul
+cd backend
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend seul
+cd frontend
+npm install
+npm run dev
+
+# Tests
+pip install pytest
+pytest tests/ -v
+
+# Dépendances Gemini
+pip install google-generativeai
+
+# Dépendances Dashboard
+npm install recharts lucide-react
+```
+
+---
+
+## ✅ CHECKLIST RAPIDE
+
+- [ ] App démarre (start_app.ps1)
+- [ ] Frontend OK (localhost:5173)
+- [ ] Backend OK (localhost:8000)
+- [ ] Tâche 1 complète (Gemini)
+- [ ] Tâche 2 complète (Modèles)
+- [ ] Tâche 3 complète (Dashboard)
+- [ ] Tâche 4 complète (Tests)
+- [ ] CHECKLIST_FINAL validée
+
+---
+
+## 🎯 OBJECTIF
+
+```
+✓ Chatbot intelligent (Gemini)
+✓ ML models intégrés (96% accuracy)
+✓ Dashboard moderne (graphiques)
+✓ Tests complets (pytest)
+✓ Production ready
+```
+
+---
+
+## 📞 AIDE
+
+| Problème | Fichier |
+|----------|---------|
+| Démarrer | DEMARRAGE_RAPIDE.md |
+| Gemini | GEMINI_INTEGRATION.md |
+| Modèles | MODELS_INTEGRATION.md |
+| Dashboard | DashboardPage_TEMPLATE.jsx |
+| Tests | TESTING_GUIDE.md |
+| Erreurs | ANALYSE_ET_PLAN.md |
+
+---
+
+## 🚀 COMMENCEZ
+
+```powershell
+.\start_app.ps1
+```
+
+**Bon développement! 🎉**
+
+---
+
+*Imprimez ce fichier pour référence rapide*
+*FakeShield AI v2.0 | Production Ready*
